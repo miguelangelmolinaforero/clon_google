@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?czo9ov');
+    src: url('../fonts/icomoon.eot?czo9ov#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?czo9ov') format('truetype'), url('../fonts/icomoon.woff?czo9ov') format('woff'), url('../fonts/icomoon.svg?czo9ov#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-microphone:before {
+    content: "\e901";
+}
+
+.icon-search:before {
+    content: "\e902";
+}
+
+.icon-config:before {
+    content: "\c001";
+}
+
+.icon-apps:before {
+    content: "\e900";
+}
+
+
+/* inicio de hoja de estilos */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header .menu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+
+.menu {
+    padding: 10px;
+}
+
+.menu li {
+    margin: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+i {
+    font-size: 25px;
+    color: rgb(99, 99, 99);
+}
+
+.header i:hover {
+    color: rgb(0, 0, 0);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    height: 55vh;
+    padding: 90px;
+}
+
+.search-container {
+    text-align: center;
+    /* width: 40%; */
+}
+
+.search {
+    display: flex;
+    margin: 20px auto;
+    width: 582px;
+    border-radius: 30px;
+    border: 1px solid rgb(224, 224, 224);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search:hover {
+    border: none;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.search-input {
+    padding: 13px 13px 13px 2px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.search [class^="icon-"],
+[class*=" icon-"] {
+    padding: 15px;
+    font-size: 14px;
+    color: #9a9a9b;
+}
+
+.icon-microphone:before {
+    font-size: 19px;
+    padding-right: 4px;
+}
+
+.search a:hover {
+    text-decoration: none;
+}
+
+.google-button {
+    padding: 10px 13px;
+    background-color: rgb(241, 241, 241);
+    border: none;
+    border-radius: 2px;
+    margin: 7px;
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+}
+
+.google-button:hover {
+    border: 1px solid gainsboro;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.country-tag {
+    background-color: rgb(241, 241, 241);
+    color: #5f6368;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 12px;
+    border-top: 1px solid gainsboro;
+    display: block;
+}
+
+.country-tag span {
+    margin: 15px;
+}
+
+.down-tags {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 241);
+    border-top: 1px solid gainsboro;
+}
+
+.tags {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.left-side {
+    padding: 0;
+}
+
+.tags li {
+    margin: 0 15px;
+    padding: 0;
+    font-size: 14px;
+}
